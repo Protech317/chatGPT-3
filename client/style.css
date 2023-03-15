@@ -113,7 +113,7 @@ body {
 }
 
 form {
-  width: 100%;
+  width: 100vw;
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
@@ -147,4 +147,12 @@ button {
 form img {
   width: 30px;
   height: 30px;
+}
+
+
+@media screen and (max-width: 700px) {
+
+  form {
+    height: 15vh;
+  }
 }
